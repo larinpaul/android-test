@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -23,10 +24,12 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Greeting("Android")
-
                 }
             }
         }
+//        R.drawable.ic_launcher_background
+//        findViewById<TextView>(R.id.mainTitle).text = "Hello David!"
+        maintTitle.text = "Hello Vous!"
     }
 }
 
